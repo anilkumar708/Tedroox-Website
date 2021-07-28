@@ -110,6 +110,11 @@
 						<img src="assets/img/partner/planedu.png" width="130" height="130">
 					</div>
 				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="partner-item">
+						<img src="assets/img/partner/planedu.png" width="130" height="130">
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
