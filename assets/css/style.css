@@ -133,9 +133,9 @@ button:focus {
     text-transform: capitalize;
     letter-spacing: 0.7px;
     font-weight: 600;
-    border: 0;
+    border: 2px solid #000;
 	border-radius: 30px;
-    background: #fff;
+    background: #Fff;
     transition: all 500ms ease;
     cursor: pointer;
     color: #000;
@@ -208,7 +208,7 @@ dl, ol, ul {
 }
 
 .section-padding {
-	padding: 100px 0;
+	padding: 70px 0;
 }
 
 .section-title {
@@ -394,7 +394,7 @@ dl, ol, ul {
   top: 50%;
   width: 10px;
   height: 10px;
-  background: #6f64e7;
+  background: #F15A22;
   border-radius: 50%;
   transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
@@ -493,7 +493,7 @@ dl, ol, ul {
 }
 
 .navbar-b.navbar-trans .nav-link, .navbar-b.navbar-reduce .nav-link {
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
     font-weight: 700;
     font-size: 15px;
@@ -510,7 +510,7 @@ dl, ol, ul {
 }
 
 .navbar-b.navbar-trans .show > .nav-link, .navbar-b.navbar-trans .active > .nav-link, .navbar-b.navbar-trans .nav-link.show, .navbar-b.navbar-trans .nav-link.active {
-	color: #fff;
+	color: #000;
 }
 
 .navbar-b.navbar-reduce {
@@ -629,7 +629,7 @@ dl, ol, ul {
 	position: relative;
 	color: #fff;
 	text-align: center;
-	background: url("file:///E:/Office%20stuff/tedroox/Truth/assets/img/home-bg.jpeg");
+	background: url("../img/homebg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -647,7 +647,7 @@ dl, ol, ul {
 	width: 100%;
 	opacity: .7;
 	z-index: -1;
-    background: url("file:///E:/Office%20stuff/tedroox/Truth/assets/img/homebg.png");
+    background: url("../img/homebg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -800,7 +800,6 @@ dl, ol, ul {
     display: block;
     padding: 0px;
     background: #ffffff;
-    text-align: center;
 }
 .partner-item a img {
     -webkit-transition: 0.5s;
@@ -814,36 +813,22 @@ dl, ol, ul {
 /**************************************
  * 06. About Section Style
  *************************************/
-.about-area {
-    margin-top: 52px;
-}
-.about-img {
-   position: absolute;
-   bottom: -50px;
-   left: -20%;
-}
-
-.image-1 {width: 93%;}
-
-.about-info {
-	display: flex;
-	align-items: baseline;
-	justify-content: center;
-	flex-direction: column;
-	height: 100%;
-	padding-right: 100px;
-	margin-bottom: 30px;
+.abg {
+    background: url("../img/about/clientbg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center; 
 }
 .about-info h2 {
     font-weight: 700;
-    font-size: 33px;
+    font-size: 45px;
     line-height: 1.2;
-    color: #ffffff;
+    color: #F15A22;
     margin-bottom: 10px;
 }
 .about-info p {
-    margin-top: 15px;
-    color: #fff;
+    margin-top: 20px;
+    color: #000;
 }
 .about-info .btn {
     margin-top: 25px;
@@ -888,7 +873,6 @@ dl, ol, ul {
 /**************************************
  * 07.Services Section Style
  *************************************/
-.services-area {
 }
 .services-area .section-title {
     text-align: center;
@@ -1135,7 +1119,7 @@ dl, ol, ul {
 /**************************************
  * 09.Case Studies Section Style
  *************************************/
-.case-studies-area .case {
+.studies-area .case {
     position: relative;
 }
 .case-studies-area .case .all-case {
@@ -1434,20 +1418,18 @@ display: inline-block;
     text-transform: capitalize;
     font-size: 33px;
     line-height: 1.3;
-    color: #fff;
+    color: #333;
 }
 .testimonial-area {
-	background: #f4f7fa;
-	background: #051242;
-	background-image: url(../img/bg-shape.png);
+	background-image: url(../img/client/clientbg.png);
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: contain;
 	background-position: center center;
 }
 
 .single-testimonial {
 	position: relative;
-	background: rgba(0, 0, 0, 0.15);
+	background: #F15A22;
 	padding: 55px 25px 35px;
 	border-radius: 3px;
 	z-index: 1;
@@ -1479,7 +1461,7 @@ display: inline-block;
 }
 .single-testimonial .avatar img {
     border-radius: 50%;
-    border: 8px solid rgb(26, 35, 70);
+    border: 5px solid #000;
     width: 110px;
     margin: 0 auto;
 }
@@ -1492,12 +1474,12 @@ display: inline-block;
 	font-size: 16px;
 	font-weight: 600;
 	margin-top: 0;
-	color: #ffffff;
+	color: #000;
 }
 
 .single-testimonial .testimonial-bio .bio-info span {
 	font-size: 15px;
-	color: white;
+	color: #000;
 }
 
 .single-testimonial .testimonial-content {
@@ -1840,10 +1822,262 @@ blockquote {
 }
 
 /**************************************
+*Timeline Section
+**************************************/
+.main-timeline {
+    position: relative
+}
+
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #c6c6c6;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    margin-bottom: 40px;
+    position: relative
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .icon:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -3px
+}
+
+.main-timeline .icon:after {
+    border: 2px solid #c6c6c6;
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:before {
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:after {
+    left: -3px
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 22px;
+    position: relative
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 36.5%;
+    height: 2px;
+    background: #c6c6c6;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .date-outer:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -6px
+}
+
+.main-timeline .date-outer:after {
+    border: 2px solid #c6c6c6;
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:before {
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:after {
+    left: -6px
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0
+}
+
+.main-timeline .month {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.main-timeline .year {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 36px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right
+}
+
+.main-timeline .title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0
+}
+
+.main-timeline .description {
+    margin-bottom: 0
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right
+}
+
+@media only screen and (max-width: 991px) {
+    .main-timeline .date-content {
+        margin-top: 35px
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px
+    }
+    .main-timeline .title {
+        font-size: 17px
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-timeline:before {
+        margin: 0;
+        left: 7px
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0
+    }
+    .main-timeline .icon {
+        margin: auto 0
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0
+    }
+    .main-timeline .date-content:before {
+        display: none
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date {
+        top: 30%
+    }
+    .main-timeline .year {
+        font-size: 24px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px 0
+    }
+    .main-timeline .title {
+        margin-bottom: 10px
+    }
+}
+
+/**************************************
  * What we do section
  *************************************/
 .articles {
-  background-color: #fafafa;
+  background-color: #f5f6f9;
 }
 
 .article__grid {
@@ -1914,3 +2148,49 @@ blockquote {
   font-size: 0.9rem;
   color: #797d9e;
 }
+
+/**************************************
+ * Service section starts
+ *************************************/
+ .ser-title {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 0 0 50px 0;
+ }
+ .ser-title h2 {
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 33px;
+    line-height: 1.3;
+    color: #333;
+}
+ .ser{
+    text-align: center;
+ }
+ .servicehead {
+    font-weight: 600;
+    font-size: 25px;
+    color: #F15A22;;
+    text-align: center;
+    padding-bottom: 10px;
+ }
+ .seo{
+    background: #f5f6f9;
+    padding: 30px;
+    margin: 20px;
+ }
+ .Content{
+    background: #D7FFFF;
+    padding: 30px;
+    margin: 20px;
+ }
+ .Social{
+    background: #F7D7FF;
+    padding: 30px;
+    margin: 20px;
+ }
+ .Ads{
+    background: #FFE9C5;
+    padding: 30px;
+    margin: 20px;
+ }

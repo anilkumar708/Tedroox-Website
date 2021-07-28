@@ -36,64 +36,45 @@
 	<!-- End Preloader Area -->
 	
 	<!-- Navbar Start -->
-	<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-		<div class="container">
-			<img class="navbar-brand js-scroll" href="index.html" src="assets/img/Tedroox_logo.png" width="10%">
-			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation"> <span></span> <span1></span> <span></span> </button>
-			<div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-				<ul class="navbar-nav">
-					<li class="nav-item"><a class="nav-link js-scroll active" href="index.html">Home</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll" href="#services">Services</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll" href="#blog">Blog</a></li>
-					<li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
-				</ul>
+	<header>
+		<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+			<div class="container">
+				<img class="navbar-brand js-scroll" href="index.html" src="assets/img/Tedroox_logo.png" width="10%">
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation"> <span></span> <span1></span> <span></span> </button>
+				<div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link js-scroll active" href="index.php">Home</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#services">Services</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#blog">Blog</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
-	</nav>
+		</nav>
+	</header>
 	<!-- Navbar End -->
 	
-	<!-- Home Section Start -->
-	<header id="home" class="home-area hero-equal-height section-padding overflow-hidden d-flex align-items-center">
+	<!-- About Section Start -->
+	<section class="section-padding">
 		<div class="container">
-			<div class="row align-items-center">
-				<div class="col-lg-8 col-md-12">
-					<div class="text-left home-content z-index position-relative">
-						<h1>We grant your digital wishes</h1>
-						<p>
-  							<span style="font-size: 40px; font-family: pt sans; color: #000;" 
-     						class="txt-rotate"
-     						data-period="2000"
-     						data-rotate='[ "Website", "Mobile App", "Design", "Digital Marketing"]'></span>
-						</p>
-						<a href="#" class="button" data-text="More About us"><span>Get Started</span></a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-12">
-					<div class="text-center home-video-box home-content z-index position-relative">
-						<div class="waves-box">
-							<a href="https://www.youtube.com/watch?v=SSqgaFE9igo" class="iq-video popup-video mfp-iframe"> <i class="fa fa-play"></i></a>
-							<div class="iq-waves">
-								<div class="waves wave-1"></div>
-								<div class="waves wave-2"></div>
-								<div class="waves wave-3"></div>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div>
+				<img src="assets/img/about/about us.jpg">
 			</div>
 		</div>
-	</header>
-	<!-- Home Section End -->
+	</section>
+	<!-- About Section End -->
 
-	<!-- About section Start -->
+	<!-- Content section Start -->
 	<section class="about section-padding">
 		<div class="container">
+			<div class="section-title">
+				<h2>Perfecting the art of building brands <span class="color-text">with innovation!</span></h2>
+			</div>
 			<div class="row">
-				<div class="col-md-6">
-					<h1>Perfecting the art of building brands with innovation!</h1>
-      				<p>We turn business into beautiful brands by offering top-notch Websites, Mobile apps, Design, and Digital marketing services.</p>
-      				<a href="#" class="button" data-text="More About us"><span>Get Started</span></a>
+				<div class="col-md-6 services-info">
+					<h3>Our Story</h3>
+      				<p>Tedroox Technologies is the dream inception of our founder Mr. Vikash Bharati. In 2015, the company marked its momentous beginning in the Entrepreneurial hub of India, Bengaluru. We turn business into beautiful brands by offering top-notch Websites, Mobile apps, Design, and Digital marketing services.<br><br>Team Tedroox is a close-knit team of passionate people working on big ideas and delivering path-breaking digital products and services. Our innovation is not just limited to metaphors but also mirrors in real projects. We don't treat our business relations as one-and-done commitments. Rather we foster a humanized business relation that cares for other brand’s growth like its own.</p>
 				</div>
 				<div class="col-md-6">
 					<img src="assets/img/about/illustration-hero.svg" alt="Hero Pic" />
@@ -101,12 +82,106 @@
 			</div>
 		</div>
 	</section>
-	<!-- About Section End -->
+	<!-- Content Section End -->
+
+	<!-- Team Section Start -->
+	<section class="section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 section-title">
+					<h2>LEADERSHIP <span class="color-text">TEAM</span></h2>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="single-team-box">
+						<div class="team-image"> <img src="assets/img/team/team-3.jpg" width="80%" alt="team" />
+							<div class="team-side-info">
+                                <h4>Follow Me</h4>
+								<div class="team-social-icon"> <a href="#"><i class="fa fa-facebook-f"></i></a> <a href="#"><i class="fa fa-twitter"></i></a> <a href="#"><i class="fa fa-instagram"></i></a> </div>
+                            </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="team-info">
+						<h3>Mr. Vikas Bharati</h3> <span>Founder & CEO</span>
+					</div>
+					<div>
+						<p>Highly witty, earnestly a speaker, completely humane, rarely cross, perfectly an Entrepreneur, and currently heading Tedroox Technologies in Top-class execution. <br><strong>Man of class and compassion</strong> <br>Our Founder is a bonafide human being and a smart Entrepreneur. He started off his business venture with PlanEdu in 2008. With immense interest in changing people’s lives, he played a crucial role in guiding countless students in choosing their careers. <br>In 2015, he began another journey with Tedroox Technologies which aimed at creating digital products that stand out and establishing a humanized business format that cherishes each client relationship. He stands with us in all situations and guides us like a leader and a friend.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Team Section End -->
+
+	<!--Timeline Section Start -->
+	<div class="container">
+		<div class="main-timeline">
+			<div class="col-md-12 section-title">
+				<h2>OUR <span class="color-text">JOURNEY</span></h2>
+			</div>
+			<!-- start experience section-->
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                        <span class="date">
+                            <span class="month">6 Years</span>
+                            <span class="year">2015</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="title">Begun as a Digital Marketing lab </h5>
+                </div>
+            </div>
+            <!-- end experience section-->
+
+            <!-- start experience section-->
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                        <span class="date">
+                            <span class="month">3 Years</span>
+                            <span class="year">2018</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="title">Broadened the services & renamed as ‘Tedroox Technologies’.</h5>
+                </div>
+            </div>
+            <!-- end experience section-->
+
+            <!-- start experience section-->
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                        <span class="date">
+                            <span class="year">Present</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="title">Giving new syntax for digital innovation and on a mission to do so.</h5>
+                </div>
+            </div>
+            <!-- end experience section-->
+		</div>
+	</div>
+	<!-- Timeline section ends -->
 
 	<!-- What we do Section start -->
-	<section class="articles">
+	<section class="articles section-padding">
     	<div class="article__content container container--pall">
-			<h2>What We Do </h2>
+			<div class="col-md-12 section-title">
+				<h2>WHAT <span class="color-text">WE DO</span></h2>
+			</div>
+			<div class="section-title">
+				<h4>Work, fun, and everything nice</h4>
+			</div>
 			<div class="article__grid">
 				<a href="#" class="article__item">
           			<div class="article__image" style="background-image: url('images/workaholic.jpg')"></div>
@@ -155,7 +230,7 @@
     	</div>
   	</section>
   	<!-- What we do section end-->
-	
+
 	<!-- Footer Section Start -->
 	<footer class="footer">
 		<div class="footer-top-area">

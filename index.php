@@ -38,7 +38,7 @@
 	<!-- Navbar Start -->
 	<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
 		<div class="container">
-			<img class="navbar-brand js-scroll" href="index.html" src="assets/img/Tedroox_logo.png" width="10%">
+			<img class="navbar-brand js-scroll" href="index.html" src="assets/img/Tedroox_logo (2).png" width="10%">
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation"> <span></span> <span1></span> <span></span> </button>
 			<div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
 				<ul class="navbar-nav">
@@ -55,31 +55,28 @@
 	
 	<!-- Home Section Start -->
 	<header id="home" class="home-area hero-equal-height section-padding overflow-hidden d-flex align-items-center">
-		<div class="container">
+		<div>
 			<div class="row align-items-center">
-				<div class="col-lg-8 col-md-12">
+				<div class="col-lg-2 col-md-12">
+					<div>
+						<img src="assets/img/trail1.png" width="75%">
+					</div>
+				</div>
+				<div class="col-lg-5 col-md-12">
 					<div class="text-left home-content z-index position-relative">
 						<h1>We grant your digital wishes</h1>
 						<p>
   							<span style="font-size: 40px; font-family: pt sans; color: #000;" 
      						class="txt-rotate"
-     						data-period="2000"
+     						data-period="2500"
      						data-rotate='[ "Website", "Mobile App", "Design", "Digital Marketing"]'></span>
 						</p>
-						<a href="#" class="button" data-text="More About us"><span>Get Started</span></a>
+						<a href="#services" class="button" data-text="More About us"><span>Get Started</span></a>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-12">
-					<div class="text-center home-video-box home-content z-index position-relative">
-						<div class="waves-box">
-							<a href="https://www.youtube.com/watch?v=SSqgaFE9igo" class="iq-video popup-video mfp-iframe"> <i class="fa fa-play"></i></a>
-							<div class="iq-waves">
-								<div class="waves wave-1"></div>
-								<div class="waves wave-2"></div>
-								<div class="waves wave-3"></div>
-							</div>
-						</div>
-					</div>
+				<div class="col-lg-5 col-md-12">
+				<div>
+					<img src="assets/img/trail.png">
 				</div>
 			</div>
 		</div>
@@ -92,33 +89,44 @@
 			<div class="section-title">
 				<h2>TRUSTED <span class="color-text">PARTNERS</span></h2>
 			</div>
-			<div id="partner-slide" class="customers-partner-list owl-carousel owl-theme owl-loaded owl-drag">
-				<div class="partner-item">
-					<img src="assets/img/partner/planedu.jpeg" alt="image" />
+			<div class="row">
+				<div class="col-lg-3 col-md-4">
+					<div class="partner-item">
+						<img src="assets/img/partner/planedu.png" width="130" height="130">
+					</div>
 				</div>
-				<div class="partner-item">
-					<img src="assets/img/partner/future.jpeg" alt="image" />
+				<div class="col-lg-3 col-md-4">
+					<div class="partner-item">
+						<img src="assets/img/partner/cityedu.png" width="130" height="130">
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="partner-item">
+						<img src="assets/img/partner/mba4me.png" width="130" height="130">
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-4">
+					<div class="partner-item">
+						<img src="assets/img/partner/planedu.png" width="130" height="130">
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- Partner Logo Section End -->
-	
-	
-	
+
+
 	<!-- About Section Start -->
-    <section id="about" class="about-area position-relative section-padding">
-        <div class="right-bg"></div>
-        <div class="container">
+    <section id="about" class="about-area position-relative section-padding abg">
+    	<div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-4 col-md-12">
                     <div class="about-img">
-                        <img class="image-1" src="assets/img/about.png" alt="">
+                        <img class="image-1" src="assets/img/about/main.png" width="80%">
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12">
+                <div class="col-lg-8 col-md-12">
                     <div class="about-info">
-                        <h6 class="small-title">Who We Are</h6>
                         <h2>What’s Different About - Tedroox</h2>
                         <p>We are Tedroox. We help brands grab their spotlight in the digital world through amazing digital products and services.</p>
                         <a href="about.html" class="button" data-text="More About us"><span>Learn More</span></a>
@@ -128,10 +136,10 @@
         </div>
     </section>
     <!-- About Section End -->
-	
-	
+
+
 	<!-- Services Section Start -->
-	<section id="services" class="services-area section-padding">
+	<section id="services" class=" section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-title">
@@ -198,7 +206,7 @@
                                 <li>- SEO</li>
                                 <li>- Content Marketing</li>
                             </ul>
-							<a href="#" class="services-link-btn">Read More</a>
+							<a href="service3.php" class="services-link-btn">Read More</a>
 						</div>
 						<div class="back-icon"><i class="ti-thought"></i></div>
 					</div>
@@ -267,10 +275,10 @@
 				<h2>CASE <span class="color-text">STUDIES</span></h2>
 			</div>
 			<div class="row case-list">
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="single-case">
 						<div class="case-img">
-							<a href="#"> <img src="assets/img/case/case-1.jpg" alt="case" /> </a>
+							<a href="#"> <img src="assets/img/case/case-1.png" alt="case" /> </a>
 						</div>
 						<div class="content">
 							<a href="#">
@@ -280,10 +288,10 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="single-case">
 						<div class="case-img">
-							<a href="#"> <img src="assets/img/case/case-2.jpg" alt="case" /> </a>
+							<a href="#"> <img src="assets/img/case/case-2.png" alt="case" /> </a>
 						</div>
 						<div class="content">
 							<a href="#"><h3>Marshall E Gass</h3> </a>
@@ -292,21 +300,6 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 col-md-6 col-sm-12">
-					<div class="single-case">
-						<div class="case-img">
-							<a href="#"> <img src="assets/img/case/case-3.jpg" alt="case" /> </a>
-						</div>
-						<div class="content">
-							<a href="#"><h3>Specialists ready to take on any challenge</h3> </a>
-							<p>Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-							<a href="#" class="line-bnt">View Project Details</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="case-btn text-center">
-				<p>We Have More Amazing Cases Studies. <a href="#">View More</a></p>
 			</div>
 		</div>
 	</section>
@@ -345,12 +338,8 @@
 	<!-- Testimonials Section Start -->
 	<section id="review" class="testimonial-area section-padding">
 		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="section-title">
-						<h2>OUR <span class="color-text">CLIENT’S SAY</span></h2>
-					</div>
-				</div>
+			<div class="section-title">
+				<h2>OUR <span class="color-text">CLIENT SAY'S</span></h2>
 			</div>
 			<div class="row">
 				<div class="col-lg-12 col-md-12">
@@ -358,7 +347,7 @@
 						<!-- testimonials item -->
 						<div class="single-testimonial">
 							<div class="testi-content-inner">
-								<div class="avatar"> <img src="assets/img/testimonial-1.jpg" alt="testimonial" /> </div>
+								<div class="avatar"> <img src="assets/img/testimonial-1.png" alt="testimonial" /> </div>
 								<div class="testimonial-content">
 									<p>“I’m so happy to see my website revamped into a stunning one. Witnessing Tedroox Professionals' proactive support, I felt like working with an in-house team. I highly recommend their digital products and services.”</p>
 								</div>
@@ -372,7 +361,7 @@
 						<!-- testimonials item -->
 						<div class="single-testimonial">
 							<div class="testi-content-inner">
-								<div class="avatar"> <img src="assets/img/testimonial-2.jpg" alt="testimonial" /> </div>
+								<div class="avatar"> <img src="assets/img/testimonial-2.png" alt="testimonial" /> </div>
 								<div class="testimonial-content">
 									<p>"I'm so glad to collaborate with Tedroox for an infographic video. Their work reflects finesse. I highly recommend Tedroox Technologies for anyone looking to uplift their standard of work."</p>
 								</div>
@@ -386,7 +375,7 @@
 						<!-- testimonials item -->
 						<div class="single-testimonial">
 							<div class="testi-content-inner">
-								<div class="avatar"> <img src="assets/img/testimonial-3.jpg" alt="testimonial" /> </div>
+								<div class="avatar"> <img src="assets/img/testimonial-3.png" alt="testimonial" /> </div>
 								<div class="testimonial-content">
 									<p>"Tedroox is a unique company which believes in digital transformation with innovative marketing ideas" </p>
 								</div>
@@ -417,55 +406,55 @@
 					<div id="blog-slide" class="owl-carousel owl-theme owl-loaded owl-drag">
 						<div class="single-blog">
 							<div class="post-img"> 
-								<a href="#"><img src="assets/img/blog/1.jpeg" alt="" /></a>
+								<a href="blog1.php"><img src="assets/img/blog/1.jpeg" alt="" /></a>
 							</div>
 							<div class="blog-content">
-								<h5><a href="#">A complete guide to Emoji Marketing in 2020 (With insanely creative examples)</a></h5>
+								<h5><a href="blog1.php">A complete guide to Emoji Marketing in 2020 (With insanely creative examples)</a></h5>
 								<span class="blog-type">Article</span> 
 							</div>
 						</div>
 						<div class="single-blog">
 							<div class="post-img"> 
-								<a href="#"><img src="assets/img/blog/2.jpeg" alt="" /></a>
+								<a href="blog2.php"><img src="assets/img/blog/2.jpeg" alt="" /></a>
 							</div>
 							<div class="blog-content">
-								<h5><a href="#">5 Brands that upped their Business game even during the Pandemic</a></h5>
+								<h5><a href="blog2.php">5 Brands that upped their Business game even during the Pandemic</a></h5>
 								<span class="blog-type">Article</span> 
 							</div>
 						</div>
 						<div class="single-blog">
 							<div class="post-img"> 
-								<a href="#"><img src="assets/img/blog/3.jpeg" alt="" /></a>
+								<a href="blog3.php"><img src="assets/img/blog/3.jpeg" alt="" /></a>
 							</div>
 							<div class="blog-content">
-								<h5><a href="#">Coronavirus Pandemic: How Artificial Intelligence benefits the Healthcare sector?</a></h5>
+								<h5><a href="blog3.php">Coronavirus Pandemic: How Artificial Intelligence benefits the Healthcare sector?</a></h5>
 								<span class="blog-type">Article</span> 
 							</div>
 						</div>
 						<div class="single-blog">
 							<div class="post-img"> 
-								<a href="#"><img src="assets/img/blog/4.jpeg" alt="" /></a>
+								<a href="blog4.php"><img src="assets/img/blog/4.jpeg" alt="" /></a>
 							</div>
 							<div class="blog-content">
-								<h5><a href="#">6 Success Strategies of Steve Jobs that suits every Business</a></h5>
+								<h5><a href="blog4.php">6 Success Strategies of Steve Jobs that suits every Business</a></h5>
 								<span class="blog-type">Article</span> 
 							</div>
 						</div>
 						<div class="single-blog">
 							<div class="post-img"> 
-								<a href="#"><img src="assets/img/blog/5.jpeg" alt="" /></a>
+								<a href="blog5.php"><img src="assets/img/blog/5.jpeg" alt="" /></a>
 							</div>
 							<div class="blog-content">
-								<h5><a href="#">Why should your business need a Mobile App?</a></h5>
+								<h5><a href="blog5.php">Why should your business need a Mobile App?</a></h5>
 								<span class="blog-type">Article</span> 
 							</div>
 						</div>
 						<div class="single-blog">
 							<div class="post-img"> 
-								<a href="#"><img src="assets/img/blog/6.jpeg" alt="" /></a>
+								<a href="blog6.php"><img src="assets/img/blog/6.jpeg" alt="" /></a>
 							</div>
 							<div class="blog-content">
-								<h5><a href="#">Future of Digital Ads: AR/VR/XR to dominate the market</a></h5>
+								<h5><a href="blog6.php">Future of Digital Ads: AR/VR/XR to dominate the market</a></h5>
 								<span class="blog-type">Article</span> 
 							</div>
 						</div>
@@ -475,8 +464,6 @@
 		</div>
 	</section>
 	<!-- Blog Section End -->
-	
-
 	
 	<!-- Contact Section Start -->
 	<section id="contact" class="contact-area section-padding">

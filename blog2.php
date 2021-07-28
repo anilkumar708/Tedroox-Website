@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Tedroox Technologies - Infinite Innovation</title>
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta name="keywords" content="IT Solutions, Html5, Agency, Agency Services, Digital Marketing, IT Consultancy, Software Development" />
+	<meta name="description" content="Truth - IT Solutions & Agency HTML Template, Truth is a powerful Easy to Use, Highly Customzable IT Solutions and Agency Services Company HTML Template built with latest Bootstrap." />
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet" />
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" href="assets/img/Tedroox_logo.png" />
+	<!-- Site All Style Sheet Css -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="assets/css/themify-icons.css" rel="stylesheet" />
+	<link href="assets/css/magnific-popup.css" rel="stylesheet" />
+	<link href="assets/css/animate.css" rel="stylesheet" />
+	<link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+	<link href="assets/css/owl.theme.default.min.css" rel="stylesheet" />
+	<!-- Site Main Style Sheet Css -->
+	<link href="assets/css/style.css" rel="stylesheet" />
+	<link href="assets/css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+
+	<!-- Start Preloader Area -->
+	<div class="preloader">
+		<div class="preloader-inner"> <span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- End Preloader Area -->
+	
+	<!-- Navbar Start -->
+	<header>
+		<nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
+			<div class="container">
+				<img class="navbar-brand js-scroll" href="index.html" src="assets/img/Tedroox_logo.png" width="10%">
+				<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation"> <span></span> <span1></span> <span></span> </button>
+				<div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link js-scroll active" href="index.php">Home</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#about">About</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#services">Services</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#blog">Blog</a></li>
+						<li class="nav-item"><a class="nav-link js-scroll" href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- Navbar End -->
+	
+	<!-- About Section Start -->
+	<section class="section-padding">
+		<div class="container">
+			<div>
+				<img src="assets/img/about/about us.jpg">
+			</div>
+		</div>
+	</section>
+	<!-- About Section End -->
+
+	<!-- Content section Start -->
+	<section class="about section-padding">
+		<div class="container">
+			<div class="section-title">
+				<h2>5 Brands that upped their Business game <span class="color-text"><br>even during the Pandemic</span></h2>
+			</div>
+			<div class="row">
+				<div class="col-md-12 services-info">
+      				<p>Once Duke Ellington said, “A problem is a chance for you to do your best.” True that! Business is an all-time game. You have to play at it every time even though the circumstances are not that supportive. Recently with the COVID-19 outbreak, many businesses cracked and crumbled. But there are a few brands that took advantage of it and changed the tide over for their benefit. <br>
+
+					Here is how these 6 brands shined during this gloomy time:<br><br>
+
+					<h5>Wipro Touch-free Lights:</h5>
+
+					Of late, we have become super afraid of touching things. Wipro lights have a product that doesn’t let you touch switches to on/off. It has made a beautiful Ad that portrays a frontline doctor returning from the work avoiding contact with switches and opt for a voice command to light up the room. His daughter waits for his arrival and takes care of him. It shows how we should share love from a distance apart.<br>
+
+					https://youtu.be/QnOCT02XvnQ<br> 
+
+					Video Courtesy: Wipro Lights<br>
+
+					Before the pandemic, the smart lights seemed like a luxury. Now, Wipro is pitching it as a necessity. This is an Ad done right at the ultra-right time. <br><br>
+
+					<h5>Starbucks’ working space:</h5>
+
+					One of the smartest business strategies is to adapt to the situational needs of the customer. 
+					Let’s all admit it! We are in the ‘Enough is enough’ phase of Work from Home. Aren’t we just yearning for a workspace setup? Keeping in view of this, a Starbucks outlet in Japan understood the ‘work from home’ pain point and implemented a working space replica in their store.<br> 
+
+					In collaboration with Think Labs, they are offering private and shared workspace that perfectly suits video calls and conference meetings. Customers can book their spaces on the App and can suffice their coffee cravings too.<br>
+					<img src="assets/img/blog/brand1.png"><br>
+					Image Courtesy: Starbucks<br>
+
+					<b>Master strategy used here:</b> If your product sales go down, add the thing in demand, and sell your product along. <br><br>
+
+					<h5>Mask Innovation:</h5>
+
+					Gone are the days when we used to notice masks only in operation theatre movie scenes. How alien it was! Fast forward to 2020, a mask is an indispensable thing that ought to be tagged along. Two companies touched the creative peak by innovating these regular wear masks.<br>
+
+					<b>Burger King</b>
+
+					Burger King went one step ahead in curbing the spread of coronavirus. They started printing orders on the masks so that the customers don’t even need to speak. It is interesting as well as a sensible initiative.<br> 
+					<img src="assets/img/blog/brand2.png"><br>
+
+					Image Courtesy: Burger King<br><br>
+
+
+					<h5>Happy Dent:</h5>
+
+					A food and beverage company called ‘Happy Dent’ commenced its ‘Unmask your smile’ campaign. We are all living in a dark and depressed phase of our lives. By hiding our faces with masks we are also covering up our beautiful smiles. As we cannot exchange smiles visibly, Happy dent began the customized masks featuring people’s smiles.<br><br>
+ 					<img src="assets/img/blog/brand3.png"><br>
+					Image Courtesy: Happy Dent India<br>
+
+					This small act of spreading joy is impactful and refreshing at times like this!<br><br>
+
+
+					<h5>Smile at the world’s Braces:</h5>
+
+					We all cringe at the thought of opting for braces. Not just because of the looks but for the awkwardness to show them in public. But now, it's a perfect time to put one. Masks on and Braces hidden!  Smile at the World Orthodontics - a clinic in Texas, USA has created this brilliant Ad campaign:<br>
+					<img src="assets/img/blog/brand4.png"><br>
+
+					Image Courtesy: Smile at the World <br>
+
+					We couldn’t agree more! Your business won’t go south if you are clever enough to match the product and the situation.<br><br>
+
+					<h5>Burger King’s request to order from its rivals:</h5>
+
+					A Business becomes a brand when it does something memorable to its customers. People will stay when your business becomes more humane. Burger King touched our hearts when it asked us to order from its competitors. You might be wondering how that might happen.0<br>
+
+					When many employees of food outlets are losing jobs and facing salary cuts, Burger King wanted customers to help with the financial crisis. Here’s the soulful message:<br>
+					<img src="assets/img/blog/brand5.png"><br>
+					Image Courtesy: Burger King<br>
+
+					Being a giant food company, there is no need for them to do this. Still, they did lend hands to fellow humans.  Show compassion and  break down all the rivalry during such tough times. Because Humanity wins every other strategy! <br><br>
+
+					<h5>Final word:</h5>
+
+					This article covered brilliant marketing techniques followed by various companies. Be it a small or big company, your innovative marketing skills will only help you thrive in difficult times as it is the ‘survival of the wittiest era’. Initiate, innovate, and inspire!</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Content Section End -->
+
+	<!-- Footer Section Start -->
+	<footer class="footer">
+		<div class="footer-top-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 footer-content">
+						<div class="footer-colm-1">
+							<h3 class="footer-logo">Our Story</h3>
+							<p>Tedroox Technologies is the dream inception of our founder Mr. Vikash Bharati. In 2015, the company marked its momentous beginning in the Entrepreneurial hub of India, Bengaluru. </p>
+							<ul class="footer-social-icon">
+								<li> <a href="#"><i class="fa fa-facebook facebook"></i></a> </li>
+								<li> <a href="#"><i class="fa fa-twitter twitter"></i></a> </li>
+								<li> <a href="#"><i class="fa fa-linkedin linkedin"></i></a> </li>
+								<li> <a href="#"><i class="fa fa-youtube youtube"></i></a> </li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 footer-content">
+						<div class="footer-colm-2 middle-nav-content">
+							<h5 class="footer-colm-title">Company </h5>
+							<ul class="footer-nav">
+								<li> <a href="#">About Us</a> </li>
+								<li> <a href="#">Services</a> </li>
+								<li> <a href="#">Case Studies</a> </li>
+								<li> <a href="#">Contact Us</a> </li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-6 footer-content">
+						<div class="footer-colm-4 footer-twitter">
+							<h5 class="footer-colm-title">Twitter Feed</h5>
+							
+                            <div id="tweet-feed-slide" class="owl-carousel owl-theme owl-loaded owl-drag">
+								<div class="tweet-card">
+									<blockquote class="twitter-tweet">
+										<p><i class="fa fa-twitter twitter"></i> <a href="https://twitter.com/mailcloud" target="_blank">@mailcloud</a> awesome! I&#39;m never one to save files on my laptop and always get stuck later on. Can locate and share directly via app now</p>&mdash; Adnan Afzal (@aafzal_uk) <a href="https://twitter.com/aafzal_uk/status/638349731291373569" target="_blank">August 31, 2020</a></blockquote>
+								</div>
+								<div class="tweet-card">
+									<blockquote class="twitter-tweet">
+										<p><i class="fa fa-twitter twitter"></i> <a href="https://twitter.com/mailcloud" target="_blank">@mailcloud</a> awesome! I&#39;m never one to save files on my laptop and always get stuck later on. Can locate and share directly via app now</p>&mdash; Adnan Afzal (@aafzal_uk) <a href="https://twitter.com/aafzal_uk/status/638349731291373569" target="_blank">August 31, 2020</a></blockquote>
+								</div>
+								<div class="tweet-card">
+									<blockquote class="twitter-tweet">
+										<p><i class="fa fa-twitter twitter"></i> <a href="https://twitter.com/mailcloud" target="_blank">@mailcloud</a> awesome! I&#39;m never one to save files on my laptop and always get stuck later on. Can locate and share directly via app now</p>&mdash; Adnan Afzal (@aafzal_uk) <a href="https://twitter.com/aafzal_uk/status/638349731291373569" target="_blank">August 31, 2020</a></blockquote>
+								</div>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom-area">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="footer-bottom-nav-copyright-text">
+							<p>© 2021, All rights reserved - Designed & Developed by Tedroox</p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="footer-bottom-nav">
+							<ul>
+								<li> <a href="#">Terms of service</a> </li>
+								<li> <a href="#">Privacy Policies</a> </li>
+								<li> <a href="#">Faq</a> </li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer Section End -->
+	
+	<!-- Back to Top -->
+	<div class="back-to-top"><i class="fa fa-caret-up"></i><i class="fa fa-caret-up"></i></div>
+	
+	<!-- Site All Jquery Js -->
+	<script src="assets/js/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/plugins.js"></script>
+	<!--Site Main js-->
+	<script src="assets/js/main.js"></script>
+	
+</body>
+
+</html>
