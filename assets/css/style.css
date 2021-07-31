@@ -819,6 +819,13 @@ dl, ol, ul {
     background-size: contain;
     background-position: center center; 
 }
+.story {
+    background: url("../img/about/story1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    padding-bottom: 100px;
+}
 .about-info h2 {
     font-weight: 700;
     font-size: 45px;
@@ -827,7 +834,7 @@ dl, ol, ul {
     margin-bottom: 10px;
 }
 .about-info p {
-    margin-top: 20px;
+    margin-top: 60px;
     color: #000;
 }
 .about-info .btn {
@@ -1583,12 +1590,11 @@ display: inline-block;
 /**************************************
  * 14. Contact Section Style
  *************************************/
-.contact-area {
-    background: #051242;
-    background-image: url(../img/bg-shape.png);
+.abg1 {
+    background: url("../img/about/clientbg.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: contain;
+    background-position: center center; 
 }
 .contact-area .section-title h2 {
     font-weight: 900;
@@ -1598,7 +1604,7 @@ display: inline-block;
     color: #fff;
 }
 .contact-info {
-    background: rgba(0, 0, 0, 0.1);
+    background: #FF5212C7;
     border-radius: 5px;
     padding: 66px 50px;
 }
@@ -1611,7 +1617,7 @@ display: inline-block;
 .contact-info ul li {
     position: relative;
     padding-left: 95px;
-    color: #cecece;
+    color: #000;
     margin-bottom: 35px;
 }
 .contact-info ul li:last-child {
@@ -1654,14 +1660,14 @@ display: inline-block;
     font-weight: 700;
 }
 .contact-info ul li a {
-    color: #cecece;
+    color: #000;
     display: block;
 }
 
 .contact-form-box {
-    background: rgba(0, 0, 0, 0.15);
+    background: #FF7846;
     border-radius: 5px;
-    padding: 35px 50px;
+    padding: 60px 50px;
 }
 .contact-area .form input,
 .contact-area .form textarea {
@@ -1685,12 +1691,20 @@ display: inline-block;
 	margin: 0;
 }
 
-.form-group {
+.form-group input{
+    width: 100%;
+    border-bottom: 1px solid #c7c3ba;
 	margin-bottom: 25px;
+        overflow: visible;
+    background: #FF7846;
 }
 
 button, input, textarea {
-	color: #505050;
+    width: 100%;
+	    border-style: none;
+    color: #505050;
+    background: #ff7846;
+    border-bottom: 1px solid #c7c3ba;
 }
 
 button, input, textarea:focus {
@@ -1816,6 +1830,7 @@ blockquote {
 }
 /**************************************
  * About Page start
+    first section
  *************************************/
 .about {
     background: #f5f6f9;
@@ -2151,23 +2166,24 @@ blockquote {
 
 /**************************************
  * Service section starts
+    Digital page
  *************************************/
- .ser-title {
+ .dig-title {
     text-align: center;
     margin-bottom: 15px;
     padding: 0 0 50px 0;
  }
- .ser-title h2 {
+ .dig-title h2 {
     font-weight: 900;
     text-transform: capitalize;
     font-size: 33px;
     line-height: 1.3;
     color: #333;
 }
- .ser{
+ .dig{
     text-align: center;
  }
- .servicehead {
+ .digitalhead {
     font-weight: 600;
     font-size: 25px;
     color: #F15A22;;
@@ -2194,3 +2210,91 @@ blockquote {
     padding: 30px;
     margin: 20px;
  }
+
+ /**************************************
+ * Web page
+ *************************************/
+ .web {
+    border: 5px solid #F87A4C;
+    width: 70%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .web-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+ }
+  .webc{
+    text-align: center;
+ }
+ .webw {
+    margin: 50px 0;
+ }
+ .image-wrapper{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+ .image-wrapper1{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+
+ .bgc {
+    background-color: #F7F7F7;
+ }
+ /* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.web-tab {
+    max-width: 50%;
+ }
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.wrapper .tabs ul li.active {
+    border-top: 6px solid #f15a22;
+    margin-top: -15px;
+    background: #fff;
+    color: #f15a22;
+    padding-top: 9px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+ hr {
+    border-color: #F15A22;
+}
