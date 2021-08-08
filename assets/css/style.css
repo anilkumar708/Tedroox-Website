@@ -2298,3 +2298,240 @@ blockquote {
  hr {
     border-color: #F15A22;
 }
+
+.section-padding1 {
+    padding: 10px 0;
+    padding-bottom: 50px;
+
+  }
+  .section-padding1 img{
+      margin-top: -40px;
+  }
+.star{
+    padding:370px;
+    margin-bottom: 270px;
+   
+    /* margin-top: 100px;    */
+}
+
+.gradient ul {
+    position: absolute;
+   /* top: 550px; */
+    left: 480px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.gradient ul li {
+    position: absolute;
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    transition: all 2s linear;
+}
+#round{
+    border:5px solid #f15a22;
+    padding:20px;
+    left: 50px;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 150px;
+    background-color: #ff4e00;
+    background-image: linear-gradient(315deg, #f35917 0%, #ec9f05 74%);
+    ;
+    width: 300px;
+    text-align: center;
+}
+
+#center{
+    text-align: center;
+    width: 300px;
+    left:80px;
+    top:-255px;
+}
+
+.wrapper-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    height: 100vh;
+  }
+  
+  #star-five {
+  
+    margin: 250px 0;
+    position: relative;
+    display: block;
+    color: red;
+    width: 0px;
+    height: 0px;
+    border-right: 500px solid transparent;
+    border-bottom: 350px solid #9921e8;
+    border-left: 500px solid transparent;
+    -moz-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+  }
+  #star-five:before {
+   
+    border-bottom: 400px solid #9921e8;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -225px;
+    left: -325px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg);
+  }
+  
+  #star-five:after {
+  
+    position: absolute;
+    display: block;
+    color: red;
+    top: 15px;
+    left: -525px;
+    width: 0px;
+    height: 0px;
+    border-right: 500px solid transparent;
+    border-bottom: 350px solid #9921e8;
+    border-left: 500px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+    content: '';
+  }
+  
+  .wrapper-star span {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    text-align:center;
+    width:300px;
+  }
+
+
+
+  /* UI/UX design process */
+
+
+
+
+.des-statistics-specifications h3 {
+    font-weight: 700;
+    color: hsl(260, 8%, 14%);
+    font-family: "Poppins", sans-serif;
+  
+  }
+  
+  
+  
+  .des-statistics-specifications p,li,a {
+    list-style: none;
+  
+    color: hsl(257, 7%, 63%);
+    font-weight: 500;
+    font-size: 18px;
+  
+  }
+  
+
+  .des-container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .des-main {
+    background:  #f5f6f9;
+    margin-top: -50px;
+    position: relative;
+  }
+  
+  
+  
+  .des-statistics > div {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .des-statistics > div h2 {
+    font-size: 32px;
+  }
+  
+  .des-statistics > div p {
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  
+  .des-statistics-specifications {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    padding-bottom: 50px;
+    /* padding-top: 100px; */
+  }
+  
+  .des-statistics-specifications > div:nth-child(odd) {
+    width: 700px;
+    background: #fff;
+    border-radius: 10px;
+    border:5px solid #f15a22;
+    padding: 35px;
+    position: relative;
+  }
+
+  .des-statistics-specifications > div:nth-child(even) {
+    width: 100px;
+    height: 15px;
+    background: hsl(255, 85%, 43%);
+  }
+
+  
+  @media (max-width: 500px) {
+    
+    .des-container {
+      max-width: 300px;
+    }
+  
+    .des-main {
+        
+      margin-top: 130px;
+    }
+    .des-statistics {
+      text-align: center;
+    }
+    .des-statistics-specifications > div:nth-child(even) {
+      height: 100px;
+      width: 5px;
+    }
+    .des-statistics-specifications > div:nth-child(5) {
+      margin-top: 0;
+    }
+    .des-statistics-specifications > div:nth-child(3) {
+      margin-top: 0;
+    }
+    .des-statistics-specifications > div p {
+      margin-top: 20px;
+    }
+    .des-statistics-text {
+      margin-bottom: 60px;
+    }
+    .des-statistics-specifications {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+  }
+  .web-des1{
+     padding-top: 20px;
+     margin-bottom: -80px;
+  }

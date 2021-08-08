@@ -241,10 +241,7 @@ ul {
   line-height: 1.3;
   color: #333;
 }
-.once{
-margin-left: 370px;
-/* text-align: center; */
-}
+
 .twice{
   margin-left: 240px;
 }
@@ -2562,3 +2559,4 @@ h2 {
 .about2{
   background-color: #f15a22;
 }
+
