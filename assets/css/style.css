@@ -744,6 +744,17 @@ dl, ol, ul {
 	-webkit-animation-delay: 2s;
 	animation-delay: 2s;
 }
+
+@media screen and (max-width: 600px) {
+  .mbi {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
 @-webkit-keyframes waves {
 	0% {
 		-webkit-transform: scale(0.2, 0.2);
