@@ -2367,7 +2367,7 @@ blockquote {
     width: 0px;
     height: 0px;
     border-right: 500px solid transparent;
-    border-bottom: 350px solid #9921e8;
+    border-bottom: 350px solid #111;
     border-left: 500px solid transparent;
     -moz-transform: rotate(35deg);
     -webkit-transform: rotate(35deg);
@@ -2376,7 +2376,7 @@ blockquote {
   }
   #star-five:before {
    
-    border-bottom: 400px solid #9921e8;
+    border-bottom: 400px solid #111;
     border-left: 150px solid transparent;
     border-right: 150px solid transparent;
     position: absolute;
@@ -2402,7 +2402,7 @@ blockquote {
     width: 0px;
     height: 0px;
     border-right: 500px solid transparent;
-    border-bottom: 350px solid #9921e8;
+    border-bottom: 350px solid #111;
     border-left: 500px solid transparent;
     -webkit-transform: rotate(-70deg);
     -moz-transform: rotate(-70deg);
@@ -2492,7 +2492,7 @@ blockquote {
   .des-statistics-specifications > div:nth-child(even) {
     width: 100px;
     height: 15px;
-    background: hsl(255, 85%, 43%);
+    background: #f76936;
   }
 
   
